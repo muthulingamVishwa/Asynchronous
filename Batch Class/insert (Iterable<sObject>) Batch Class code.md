@@ -34,3 +34,12 @@ global class AccountInsertBatchJob implements Database.Batchable<sObject> {
         System.debug('Account Insert Batch completed successfully.');
     }
 }
+
+# Execute insert (Iterable<sObject>) Batch Class
+AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
+database.ExecuteBatch(job,2000);     
+
+
+AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
+      database.ExecuteBatch(job,2000);           
+

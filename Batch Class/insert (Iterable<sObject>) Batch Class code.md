@@ -1,5 +1,6 @@
 # insert (Iterable<sObject>) Batch Class
 //insert (Iterable<sObject>) Batch Class
+{
 global class AccountInsertBatchJob implements Database.Batchable<sObject> {    
    
     global Integer totalRecords;  

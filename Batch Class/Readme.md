@@ -7,5 +7,5 @@
   •	If one batch fails to process successfully, all other successful batch transactions aren't rolled back.
 ##                                            Syntax 
   # Start   (in insert (Iterable<sObject>) Batch Class),update <QueryLocator>  Batch Class   
-  #	Execute 
-  # Finish
+  * Execute 
+  * Finish

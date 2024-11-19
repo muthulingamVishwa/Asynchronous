@@ -5,7 +5,7 @@
 ## Advantages are:
   •	Every transaction starts with a new set of governor’s limits.
   •	If one batch fails to process successfully, all other successful batch transactions aren't rolled back.
-## Syntax 
+##                                            Syntax 
   # Start   (in insert (Iterable<sObject>) Batch Class),update <QueryLocator>  Batch Class   
   #	Execute 
   # Finish

@@ -1,8 +1,7 @@
 # insert (Iterable<sObject>) Batch Class
-
 global class AccountInsertBatchJob implements Database.Batchable<sObject> {    
    
-   global Integer totalRecords;  
+    global Integer totalRecords;  
     //Constructor 
     public AccountInsertBatchJob(Integer totalRecords) {
         this.totalRecords = totalRecords;
@@ -24,6 +23,7 @@ global void finish(Database.BatchableContext bc) {                          //fi
         System.debug('Account Insert Batch completed successfully.');
     }
 }
+   
      
 
 # Execute insert (Iterable<sObject>) Batch Class

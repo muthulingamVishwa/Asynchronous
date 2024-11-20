@@ -1,5 +1,5 @@
 # insert (Iterable<sObject>) Batch Class
- ```//insert (Iterable<sObject>) Batch Class
+ ```Apex //insert (Iterable<sObject>) Batch Class
 global class AccountInsertBatchJob implements Database.Batchable<sObject> {    
    
     global Integer totalRecords;  
@@ -26,8 +26,7 @@ global void finish(Database.BatchableContext bc) {                          //fi
 }
 
 # Execute insert (Iterable<sObject>) Batch Class
-
- ``` AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
+ AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
 database.ExecuteBatch(job,2000);     
 
 

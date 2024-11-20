@@ -9,3 +9,19 @@
   # Start   (in insert (Iterable<sObject>) Batch Class),update <QueryLocator>  Batch Class   
   * Execute 
   * Finish
+
+
+## in Start 
+      when we need write query  we go to QueryLocator +++> <QueryLocator>  Batch Class 
+      when we need to from insert bulk in apex +++> Iterable<sObject> Batch class
+      Batch Apex Syntax Simplified 🚀
+Start:
+QueryLocator: Use when you need to query records.
+Iterable<sObject>: Use when you need to insert bulk records.
+Key Methods:
+Start: Initialize logic.
+Execute: Process records.
+Finish: Post-batch actions.
+Master these methods for efficient Apex development! 🌟
+
+#Salesforce #Apex #BatchApex #SalesforceDevelopment

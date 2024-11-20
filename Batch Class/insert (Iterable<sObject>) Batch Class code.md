@@ -1,6 +1,6 @@
 # insert (Iterable<sObject>) Batch Class
-//insert (Iterable<sObject>) Batch Class
- ```global class AccountInsertBatchJob implements Database.Batchable<sObject> {    
+ ```//insert (Iterable<sObject>) Batch Class
+global class AccountInsertBatchJob implements Database.Batchable<sObject> {    
    
     global Integer totalRecords;  
     //Constructor 
@@ -23,14 +23,12 @@ global void execute(Database.BatchableContext bc, List<sObject> scope) {   //Exe
 global void finish(Database.BatchableContext bc) {                          //finish
         System.debug('Account Insert Batch completed successfully.');
     }
-}   ```
-    
-   
-     
-
+}  ```
+ 
 # Execute insert (Iterable<sObject>) Batch Class
+ ```
 AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
-database.ExecuteBatch(job,2000);     
+database.ExecuteBatch(job,2000);      ```
 
 
 

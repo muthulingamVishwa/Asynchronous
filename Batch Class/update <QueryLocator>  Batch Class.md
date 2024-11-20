@@ -1,5 +1,5 @@
 # update <QueryLocator>  Batch Class 
-```Apex// update <QueryLocator>  Batch Class 
+```Apex // update <QueryLocator>  Batch Class 
 global class AccountUpdateBatchJob implements Database.Batchable<sObject>
 {
     //Start 

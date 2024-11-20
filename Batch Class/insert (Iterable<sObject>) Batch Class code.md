@@ -26,8 +26,8 @@ global void finish(Database.BatchableContext bc) {                          //fi
 }  ```
  
 # Execute insert (Iterable<sObject>) Batch Class
- ```
-AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
+
+ ``` AccountInsertBatchJob job=new AccountInsertBatchJob(20000);
 database.ExecuteBatch(job,2000);      ```
 
 
